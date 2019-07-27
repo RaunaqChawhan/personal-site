@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid;
+}
+
+.intro {
+    border: 1px solid;
+}
+
+.intro p {
+/*    font-family: 'Fascinate', cursive;*/
+    font-size: 3rem;
+    font-style: italic;
+    margin: 0;
+    border: 1px solid;
+    text-align: center;
+}
+
+.intro h1{
+    border: 1px solid;
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -2rem;
+    text-align: center;
+}
+
+.social-links {
+    border: 1px solid;
+    text-align: center;
+}
+
+.fa-twitter, .fa-github, .fa-codepen {
+    border: 1px solid;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: black;
+    
+}
+
+.about {
+    border: 1px solid;
+}
+
+.portfolio {
+    border: 1px solid;
+}
+
+.project-1 {
+    border: 1px solid;
+}
+
+.thumbnail-container {
+    border: 1px solid;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+/*
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+*/
+}
+
+.thumbnail {
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    max-width: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: transparent;
+}
+
+.thumbnail-description {
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    border: 1px solid;
+    border-top: transparent;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 5px;
+}
+
+.project-2 {
+    border: 1px solid;
+}
+
+.project-2 img {
+/*    max-width: 100%;*/
+}
+
+.project-3 {
+    border: 1px solid;
+}
+
+.project-3 img {
+/*    max-width: 100%;*/
+}
+
+.project-4 {
+    border: 1px solid;
+}
+
+.project-4 img {
+/*    max-width: 100%;*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
