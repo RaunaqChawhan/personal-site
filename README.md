@@ -1,1 +1,3 @@
 personal website
+
+This is my personal website which showcases some of the projects built by me. I needed a place to showcase my selected projects and this is how I got into building this site. This is a small attempt and the first version of my website. This is not so fancy website with various designs and animations. Its a simple site with the projects built by me. For the second version, hope to redesign the entire website. Till then, I present to you my very first site!! :)

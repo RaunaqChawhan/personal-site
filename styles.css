@@ -108,6 +108,10 @@ html, body {
     font-size: 1.2rem;
 }
 
+.project-1 .thumbnail-container {
+    padding-top: 0;
+}
+
 .project-2 {
 /*    border: 1px solid;*/
 }
@@ -123,4 +127,23 @@ html, body {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 620px) {
+    
+    .intro p {
+        font-size: 1.5rem;
+    }
+    
+    .intro h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 260px) {
+    body {
+        word-wrap: break-word;
+    }
 }
