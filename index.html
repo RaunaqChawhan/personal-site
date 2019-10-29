@@ -7,70 +7,141 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Raunaq Chawhan's portfolio website">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Literata:400,500,600,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>Raunaq Chawhan</title>
     </head>
     
     <body>
         <div class="container">
-            <header class="intro">
-                <p>Hello,</p>
-                <h1>I'm Raunaq</h1>
-                <div class="social-links">
-                    <a href="https://twitter.com/_raunaq_" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/RaunaqChawhan" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://codepen.io/_Raunaq_/" target="_blank"><i class="fab fa-codepen"></i></a>
-                </div>
+            <header class="main-header">
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <section class="introduction">
+                    <h1>Hello!</h1>
+                    <p>I'm Raunaq Chawhan</p>
+                    <p>I love to learn and I learn to code</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/_raunaq_" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/RaunaqChawhan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://codepen.io/_Raunaq_/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </section>
             </header>
-            <section class="about">
-                <h1>About me</h1>
-                <p>I'm a Front-End Developer with keen interest in learning and experimenting with web technologies.</p>
-            </section>
-            <section class="portfolio">
-                <h1>Projects</h1>
-                <div class="project-1">
-                    <a href="https://raunaqchawhan.github.io/web-design/" target="_blank">
-                        <figure class="thumbnail-container">
-                            <img src="images/web-design.PNG" alt="responsive website design" class="thumbnail">
-                            <figcaption class="thumbnail-description">Responsive Website Design</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="project-2">
-                    <a href="https://github.com/RaunaqChawhan/day-and-night-toggle-button" target="_blank">
-                        <figure class="thumbnail-container">
-                            <img src="images/toggle-button1.PNG" alt="toggle button" class="thumbnail">
-                            <figcaption class="thumbnail-description">Toggle Button</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="project-3">
-                    <a href="https://github.com/RaunaqChawhan/Todo-List" target="_blank">
-                        <figure class="thumbnail-container">
-                            <img src="images/todo1.PNG" alt="todo list" class="thumbnail">
-                            <figcaption class="thumbnail-description">Todo list</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="project-4">
-                    <a href="https://github.com/RaunaqChawhan/word-frequency" target="_blank">
-                        <figure class="thumbnail-container">
-                            <img src="images/word-frequency.PNG" alt="word frequency converter" class="thumbnail">
-                            <figcaption class="thumbnail-description">Word frequency converter</figcaption>
-                        </figure>
-                    </a>
-                </div>
-            </section>
-            <footer class="main-footer">
-                <h1>Contact</h1>
-                <p>I'll be happy to hear from you. Let's connect to talk about project ideas, thoughts or even care to say Hi!</p>
-                <div class="social-links">
-                    <a href="https://twitter.com/_raunaq_" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://github.com/RaunaqChawhan" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://codepen.io/_Raunaq_/" target="_blank"><i class="fab fa-codepen"></i></a>
-                </div>
-            </footer>
+            <main id="content">
+                <section id="projects">
+                    <div class="project-1">
+                        <a href="https://raunaqchawhan.github.io/web-design/" target="_blank">
+                            <div class="description">
+                                <figure class="thumbnail-container">
+                                    <img src="images/web-design.PNG" alt="responsive webpage design" class="thumbnail">
+                                    <figcaption class="caption">Responsive Website Design</figcaption>
+                                </figure>
+                                <p>This is the first responsive web page built by me. It is made using HTML, CSS and vanilla JS</p>
+                                <div class="tags">
+                                    <span>html</span>
+                                    <span>css</span>
+                                    <span>javascript</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-2">
+                        <a href="https://github.com/RaunaqChawhan/day-and-night-toggle-button" target="_blank">
+                            <div class="description">
+                                <figure class="thumbnail-container">
+                                    <img src="images/toggle-button1.PNG" alt="toggle button" class="thumbnail">
+                                    <figcaption class="caption">Toggle Button</figcaption>
+                                </figure>
+                                <p>I was impressed by the design of this toggle button on Dribble and wanted to replicate it. I was really happy to see when it was completed. This project helped in improving my CSS skills and I got to work with animation for the first time on this project.</p>
+                                <div class="tags">
+                                    <span>html</span>
+                                    <span>css</span>
+                                    <span>javascript</span>
+                                    <span>css animation</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-3">
+                        <a href="https://raunaqchawhan.github.io/quiz-app/" target="_blank">
+                            <div class="description">
+                                <figure class="thumbnail-container">
+                                    <img src="images/" alt="quiz app" class="thumbnail">
+                                    <figcaption class="caption">Quiz app</figcaption>
+                                </figure>
+                                <p>I'd learnt about drag and drop API and wanted to use it in a project. So I created this quiz app to get a hang of it.</p>
+                                <div class="tags">
+                                    <span>html</span>
+                                    <span>css</span>
+                                    <span>javascript</span>
+                                    <span>drag and drop api</span>
+                                    <span>fetch api</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-4">
+                        <a href="https://github.com/RaunaqChawhan/Todo-List" target="_blank">
+                            <div class="description">
+                                <figure class="thumbnail-container">
+                                    <img src="images/todo1.PNG" alt="todo list" class="thumbnail">
+                                    <figcaption class="caption">Todo list</figcaption>
+                                </figure>
+                                <p>I wanted to improve my js skills and so I created this to do list app</p>
+                                <div class="tags">
+                                    <span>html</span>
+                                    <span>css</span>
+                                    <span>javascript</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-5">
+                        <a href="https://github.com/RaunaqChawhan/word-frequency" target="_blank">
+                            <div class="description">
+                                <figure class="thumbnail-container">
+                                    <img src="images/word-frequency.PNG" alt="word frequency converter" class="thumbnail">
+                                    <figcaption class="caption">Word frequency converter</figcaption>
+                                </figure>
+                                <p>This project was built in order to understand how to use fetch api and learn about regex</p>
+                                <div class="tags">
+                                    <span>html</span>
+                                    <span>css</span>
+                                    <span>javascript</span>
+                                    <span>regex</span>
+                                    <span>fetch api</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section id="about">
+                    <h1>About</h1>
+                    <p>My name is Raunaq Chawhan and I'm a self-taught Web Developer with keen interest in learning and experimenting
+                        with web technologies. I like to solve problems and build things. I started my coding journey with 
+                        HTML, CSS and JavaScript and was amazed by the various resources that were available online. 
+                        I got to learn something with every articles and tutorials I went through. I spend most of my spare time on 
+                        improving my coding and problem solving skills. I'm enjoying this journey of continuously upgrading myself 
+                        on a daily basis.
+                    </p>
+                </section>
+                <section id="contact">
+                    <h1>Contact</h1>
+                    <p>I'll be happy to hear from you. Let's connect to talk about project ideas, thoughts or just a simple Hi!</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/_raunaq_" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/RaunaqChawhan" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://codepen.io/_Raunaq_/" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </section>
+            </main>
+            <footer>Made with <i class="fas fa-heart"></i> by Raunaq Chawhan</footer>
         </div>
     </body>
     
