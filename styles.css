@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
     background: linear-gradient(135deg, #17ead9, #6078ea);
-    background: linear-gradient(135deg, #42e695, #3bb2b8);
-    background: linear-gradient(135deg, #5b247a, #1bcedf);
-    background: #e5e5e5;
+    /* background: linear-gradient(135deg, #42e695, #3bb2b8); */
+    /* background: linear-gradient(135deg, #5b247a, #1bcedf); */
+    /* background: #e5e5e5; */
 }
 
 * {
     box-sizing: inherit;
-}
-
-.main-header, .nav-bar, .introduction {
-    /* border: 2px solid; */
 }
 
 .main-header {
@@ -37,9 +35,8 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Roboto Condensed', sans-serif;
-    /* text-transform: uppercase; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
@@ -51,7 +48,8 @@ html, body {
 .nav-bar ul li a {
     text-decoration: none;
     letter-spacing: 2px;
-    color: black;
+    color: #fff;
+    transition: all 0.3s;
 }
 
 .nav-bar ul li a:hover {
@@ -77,6 +75,8 @@ html, body {
     margin: 10px 0;
     cursor: pointer;
     letter-spacing: 5px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #fff;
 }
 
 .introduction .greeting:hover {
@@ -87,14 +87,15 @@ html, body {
 .introduction .intro-name, .introduction .intro-line {
     margin: 0;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 #projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin: 1rem auto;
 }
 
@@ -118,6 +119,8 @@ html, body {
     margin: 0;
     /* border: 1px solid; */
     background: white;
+    color: black;
+    letter-spacing: 2px;
 }
 
 .description p {
@@ -126,46 +129,56 @@ html, body {
 
 .tags span {
     display: inline-block;
-    background: red;
+    background: #2DC9DE;
     padding: 3px 10px;
     border-radius: 50px;
     margin: 5px 2px;
     font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #fff;
+    cursor: auto;
 }
+
 
 #about {
     display: inline-block;
     text-align: center;
+    color: #fff;
 }
 
 #about h1 {
     width: 80%;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 10px auto;
+    color: #fff;
 }
 
 #about p {
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin: 0 auto;
     text-align: lcenter;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 #contact {
     text-align: center;
     margin-top: 2rem;
+    color: #fff;
 }
 
 #contact h1 {
     width: 80%;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 10px auto;
+    color: #fff;
 }
 
 #contact p {
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin: 0 auto;
     text-align: center;
     letter-spacing: 2px;
@@ -179,7 +192,7 @@ html, body {
 .social-links a {
     display: inline-block;
     margin: 0 10px;
-    color: black;
+    color: #fff;
 }
 
 footer {
@@ -189,4 +202,10 @@ footer {
     padding: 5px;
     text-align: center;
     letter-spacing: 2px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.fa-heart {
+    color: red;
 }
