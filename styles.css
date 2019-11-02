@@ -93,41 +93,56 @@ html, body {
 #projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
+    /* border: 1px solid; */
 }
 
-.project, .project a, .thumbnail-container, .thumbnail-container .thumbnail {
+.project {
+    margin-top: 2rem;
+    border: 1px solid;
+    /* background: #fff; */
+    /* flex-basis: 50%; */
+}
+
+.thumbnail {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* .project a, .thumbnail-container, .thumbnail-container .thumbnail {
     display: block;
     margin: 0 auto;
     width: 500px;
     text-decoration: none;
-}
+} */
 
-.project {
+/* .project { */
     /* border: 1px solid; */
-    width: 502px;
-    margin: 10px auto;
+    /* width: 502px; */
+    /* flex: 1 ; */
+    /* margin: 10px auto; */
     /* border-radius: 10px; */
-}
+/* } */
 
-.thumbnail-container .caption, .description p, .tags {
+/* .thumbnail-container .caption, .description p, .tags {
     padding: 10px;
     font-size: 1.8rem;
     margin: 0;
     /* border: 1px solid; */
-    background: white;
+    /* background: white;
     color: black;
     letter-spacing: 2px;
 }
 
 .description p {
     font-size: 1.1rem;
-}
+} */
 
-.tags span {
+/* .tags span {
     display: inline-block;
     background: #2DC9DE;
     padding: 3px 10px;
@@ -138,7 +153,7 @@ html, body {
     letter-spacing: 0;
     color: #fff;
     cursor: auto;
-}
+} */
 
 
 #about {
