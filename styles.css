@@ -303,3 +303,23 @@ footer {
     }
 
 }
+
+@media only screen and (max-width: 400px) {
+
+    .introduction {
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle h1 {
+        font-size: 1.4rem;
+    }
+
+    #about h1, #contact h1 {
+        font-size: 1.9rem;
+    }
+
+    #about p, #contact p {
+        font-size: 0.9rem;
+    }
+
+}
